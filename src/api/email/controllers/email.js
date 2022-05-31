@@ -1,5 +1,7 @@
 "use strict";
 
+//email route
+
 module.exports = {
   async send(ctx, next) {
     console.log('trigger')
